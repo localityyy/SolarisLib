@@ -99,7 +99,7 @@ sec:Bind("Normal Bind", Enum.KeyCode.F, false, "BindNormal", function()
    print("Bind pressed")
 end)
 ```
-### Keybinds
+### Labels
 ```lua
 local label = sec:Label("Label")
 ```
