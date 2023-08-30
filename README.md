@@ -4,5 +4,31 @@
 Solaris Library is a free and open sourceed Roblox Ui Library
 ## SolarisLib script (don't use loadstring because it is bugged apparently!)
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularRDev/SolarisLib/main/SolarisLib"))()
+https://raw.githubusercontent.com/RegularRDev/SolarisLib/main/SolarisLib
 ```
+## Features:
+- Customizable Options
+- Browser-Like navigation
+- Buttons
+- Sliders
+- Dropdowns
+- Keybinds
+- and I think more
+
+## Documentation
+
+### Get the Library
+```lua
+https://raw.githubusercontent.com/RegularRDev/SolarisLib/main/SolarisLib
+```
+
+### Create the GUI
+```lua
+local win = SolarisLib:New({
+    Name = "SolarisLib",
+    FolderToSave = "SolarisLibStuff"
+ })
+```
+
+### Tabs
+```lua
