@@ -41,7 +41,7 @@ local win = SolarisLib:New({
 ```lua
 local tab = win:Tab("Example")
 ```
-### Create a sectiob
+### Create a section
 ```lua
 local sec = tab:Section("Section Example")
 ```
