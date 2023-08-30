@@ -11,7 +11,7 @@ Solaris notifications don't work because the rbxassetdid is removed!
 
 ## Features:
 - Customizable Options
-- Browser-Like navigation (broken aparrently lol)
+- Browser-Like navigation (broken apparently lol)
 - Buttons
 - Togles
 - Sliders
