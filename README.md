@@ -7,7 +7,7 @@ Solaris Library is a free and open sourceed Roblox Ui Library
 https://raw.githubusercontent.com/RegularRDev/SolarisLib/main/SolarisLib
 ```
 ## Important!
-Solaris notifications don't work because the rbxassetdid is removed!
+Solaris notifications don't work because the rbxassetdid is removed! Also, you can only put 11 sections as solaris can't scroll sections like other scripts
 
 ## Features:
 - Customizable Options
@@ -101,5 +101,9 @@ end)
 ### Keybinds
 ```lua
 local label = sec:Label("Label")
+```
+### Script source Preview
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularRDev/SolarisLib/main/Preview"))()
 ```
 Credits to Solaris team for the Library
