@@ -16,6 +16,8 @@ Solaris notifications don't work because the rbxassetdid is removed!
 - Togles
 - Sliders
 - Dropdowns
+- Colorpickers
+- Textboxes
 - Keybinds
 - Labels
 
@@ -62,8 +64,26 @@ end)
 ```
 ### Dropdowns
 ```lua
+--- Normal dropdowns
 local dropdown = sec:Dropdown("Dropdown", {"a","b","c","d","e"},"","Dropdown", function(t)
    your scripts or something
+end)
+
+--- multidropdowns
+local multidropdown =sec:MultiDropdown("Multi Dropdown", {"a","b","c","d","e"},{"b", "c"},"Dropdown", function(t)
+   print(table.concat(t, ", "))
+end)
+```
+### Colorpicker
+```lua
+sec:Colorpicker("Colorpicker", Color3.fromRGB(255,255,255),"Colorpicker", function(t)
+   print(t)
+end)
+```
+### Textbox
+```lua
+sec:Textbox("Textbox", true, function(t)
+   print(t)
 end)
 ```
 ### Keybinds
