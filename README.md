@@ -7,7 +7,7 @@ Solaris Library is a free and open sourceed Roblox Ui Library
 https://raw.githubusercontent.com/RegularRDev/SolarisLib/main/SolarisLib
 ```
 ## Important!
-Solaris notifications don't work because your rbxassetdid is removed!
+Solaris notifications don't work because the rbxassetdid is removed!
 
 ## Features:
 - Customizable Options
@@ -82,3 +82,4 @@ end)
 ```lua
 local label = sec:Label("Label")
 ```
+Credits to Solaris team for the Library
