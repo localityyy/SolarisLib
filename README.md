@@ -14,7 +14,7 @@ Also, you can only put 11 sections as solaris can't scroll sections like other s
 - Customizable Options
 - Browser-Like navigation (broken apparently lol)
 - Buttons
-- Togles
+- Toggles
 - Sliders
 - Dropdowns
 - Colorpickers
@@ -75,13 +75,13 @@ local multidropdown =sec:MultiDropdown("Multi Dropdown", {"a","b","c","d","e"},{
    print(table.concat(t, ", "))
 end)
 ```
-### Colorpicker
+### Colorpickers
 ```lua
 sec:Colorpicker("Colorpicker", Color3.fromRGB(255,255,255),"Colorpicker", function(t)
    print(t)
 end)
 ```
-### Textbox
+### Textboxes
 ```lua
 sec:Textbox("Textbox", true, function(t)
    print(t)
