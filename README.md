@@ -1,6 +1,6 @@
 # SolarisLib
 Solaris Library is a free and open sourced Roblox Ui Library
-## SolarisLib script (don't use loadstring because it is bugged apparently!) obviously you have to enter the link, if you only put the raw link it will not work for you at all
+## SolarisLib raw script
 ```lua
 https://raw.githubusercontent.com/localityyy/SolarisLib/refs/heads/main/SolarisLib
 ```
@@ -24,7 +24,7 @@ Also, you can only put 11 sections as solaris can't scroll sections like other s
 
 ### Get the Library
 ```lua
-https://raw.githubusercontent.com/localityyy/SolarisLib/refs/heads/main/SolarisLib
+local SolarisLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/localityyy/SolarisLib/refs/heads/main/SolarisLib", true))()
 ```
 
 ### Create the GUI
