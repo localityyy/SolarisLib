@@ -4,7 +4,7 @@
 Solaris Library is a free and open sourced Roblox Ui Library
 ## SolarisLib script (don't use loadstring because it is bugged apparently!) obviously you have to enter the link, if you only put the raw link it will not work for you at all
 ```lua
-https://raw.githubusercontent.com/RegularRDev/SolarisLib/main/SolarisLib
+https://raw.githubusercontent.com/localityyy/SolarisLib/refs/heads/main/SolarisLib
 ```
 ## Important!
 Solaris notifications don't work because the rbxassetdid is removed! 
@@ -26,7 +26,7 @@ Also, you can only put 11 sections as solaris can't scroll sections like other s
 
 ### Get the Library
 ```lua
-https://raw.githubusercontent.com/RegularRDev/SolarisLib/main/SolarisLib
+loadstring(game:HttpGet("https://raw.githubusercontent.com/localityyy/SolarisLib/refs/heads/main/SolarisLib", true))()
 ```
 
 ### Create the GUI
@@ -105,7 +105,6 @@ local label = sec:Label("Label")
 ```
 ### Script source Preview
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularRDev/SolarisLib/main/Preview"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/localityyy/SolarisLib/refs/heads/main/Preview"))()
 ```
 Credits to Solaris team for the Library,
-I'm sure they will remove this repository.
